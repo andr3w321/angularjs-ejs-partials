@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Test</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+<body ng-app='myApp'>
+  <%- message %>
+  <a href="#/about"> /about</a> |
+  <a href="#/"> home</a>
+  <!-- uncomment if HTML5Mode on -->
+  <!-- <a href="/about"> /about</a> | -->
+  <!-- <a href="/"> home</a> -->
+  <hr />
+  <div ng-view></div>
+</body>
+</html>
